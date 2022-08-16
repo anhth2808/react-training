@@ -11,6 +11,10 @@ import StateAndLifecycle from './MainConcepts/StateAndLifecycle'
 import HandingEvents from './MainConcepts/HandingEvents'
 import ConditionalRendering from './MainConcepts/ConditionalRendering'
 import ListsAndKeys from './MainConcepts/ListsAndKeys'
+import Forms from './MainConcepts/Forms'
+import LiftingStateUp from './MainConcepts/LiftingStateUp'
+import CompositionVsInheritance from './MainConcepts/CompositionVsInheritance'
+import ThinkInReact from './MainConcepts/ThinkInReact'
 
 import StarGame from './Plu/StarGame';
 import CardsApp from './Plu/CardsApp';
@@ -31,6 +35,10 @@ function App() {
         <Route exact path='/MainConcepts/HandingEvents' element={< HandingEvents />}></Route>
         <Route exact path='/MainConcepts/ConditionalRendering' element={< ConditionalRendering />}></Route>
         <Route exact path='/MainConcepts/ListsAndKeys' element={< ListsAndKeys />}></Route>
+        <Route exact path='/MainConcepts/Forms' element={< Forms />}></Route>
+        <Route exact path='/MainConcepts/LiftingStateUp' element={< LiftingStateUp />}></Route>
+        <Route exact path='/MainConcepts/CompositionVsInheritance' element={< CompositionVsInheritance />}></Route>
+        <Route exact path='/MainConcepts/ThinkInReact' element={< ThinkInReact />}></Route>
 
 
 
